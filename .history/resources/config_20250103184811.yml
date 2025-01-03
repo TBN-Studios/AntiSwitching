@@ -1,4 +1,0 @@
-# AntiSwitching Configuration
-
-# Set to true to allow switching, false to prevent switching
-allow-switching: false 

@@ -1,6 +1,0 @@
-name: AntiSwitching
-main: TBN\AntiSwitching\Main
-version: 1.0.0
-api: 5.0.0
-author: TBN
-description: Prevents players from switching weapons rapidly during combat. 
