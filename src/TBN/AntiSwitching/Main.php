@@ -16,10 +16,6 @@ class Main extends PluginBase implements Listener {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
-    /**
-     * @param EntityDamageByEntityEvent $event
-     * @priority HIGHEST
-     */
     public function handleNoSwitch(EntityDamageByEntityEvent $event): void {
         if (!$this->allowSwitching && $event->getModifier(EntityDamageEvent::MODIFIER_PREVIOUS_DAMAGE_COOLDOWN) < 0) {
             $event->cancel();
